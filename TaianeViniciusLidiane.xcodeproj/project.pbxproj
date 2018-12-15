@@ -28,7 +28,7 @@
 /* Begin PBXFileReference section */
 		230187892174FF170023FE7C /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		2301878C21750CFC0023FE7C /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
-		2370937F21713106006B986A /* TaianeVinicius.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaianeVinicius.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2370937F21713106006B986A /* TaianeViniciusLidiane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaianeViniciusLidiane.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2370938221713106006B986A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2370938721713106006B986A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2370938A21713106006B986A /* TaianeVinicius.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaianeVinicius.xcdatamodel; sourceTree = "<group>"; };
@@ -93,7 +93,7 @@
 		2370937621713106006B986A = {
 			isa = PBXGroup;
 			children = (
-				2370938121713106006B986A /* TaianeVinicius */,
+				2370938121713106006B986A /* TaianeViniciusLidiane */,
 				2370938021713106006B986A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,12 +101,12 @@
 		2370938021713106006B986A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2370937F21713106006B986A /* TaianeVinicius.app */,
+				2370937F21713106006B986A /* TaianeViniciusLidiane.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2370938121713106006B986A /* TaianeVinicius */ = {
+		2370938121713106006B986A /* TaianeViniciusLidiane */ = {
 			isa = PBXGroup;
 			children = (
 				2370938221713106006B986A /* AppDelegate.swift */,
@@ -118,15 +118,15 @@
 				230187892174FF170023FE7C /* Settings.bundle */,
 				2370938921713106006B986A /* TaianeVinicius.xcdatamodeld */,
 			);
-			path = TaianeVinicius;
+			path = TaianeViniciusLidiane;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2370937E21713106006B986A /* TaianeVinicius */ = {
+		2370937E21713106006B986A /* TaianeViniciusLidiane */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2370939421713107006B986A /* Build configuration list for PBXNativeTarget "TaianeVinicius" */;
+			buildConfigurationList = 2370939421713107006B986A /* Build configuration list for PBXNativeTarget "TaianeViniciusLidiane" */;
 			buildPhases = (
 				2370937B21713106006B986A /* Sources */,
 				2370937C21713106006B986A /* Frameworks */,
@@ -136,9 +136,9 @@
 			);
 			dependencies = (
 			);
-			name = TaianeVinicius;
+			name = TaianeViniciusLidiane;
 			productName = TaianeVinicius;
-			productReference = 2370937F21713106006B986A /* TaianeVinicius.app */;
+			productReference = 2370937F21713106006B986A /* TaianeViniciusLidiane.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -156,7 +156,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2370937A21713106006B986A /* Build configuration list for PBXProject "TaianeVinicius" */;
+			buildConfigurationList = 2370937A21713106006B986A /* Build configuration list for PBXProject "TaianeViniciusLidiane" */;
 			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -169,7 +169,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2370937E21713106006B986A /* TaianeVinicius */,
+				2370937E21713106006B986A /* TaianeViniciusLidiane */,
 			);
 		};
 /* End PBXProject section */
@@ -351,13 +351,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TaianeVinicius/Info.plist;
+				INFOPLIST_FILE = TaianeViniciusLidiane/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.taianevinicius.TaianeVinicius;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.taianeviniciuslidiane.TaianeViniciusLidiane;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -369,13 +369,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TaianeVinicius/Info.plist;
+				INFOPLIST_FILE = TaianeViniciusLidiane/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.taianevinicius.TaianeVinicius;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.taianeviniciuslidiane.TaianeViniciusLidiane;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -385,7 +385,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2370937A21713106006B986A /* Build configuration list for PBXProject "TaianeVinicius" */ = {
+		2370937A21713106006B986A /* Build configuration list for PBXProject "TaianeViniciusLidiane" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2370939221713107006B986A /* Debug */,
@@ -394,7 +394,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2370939421713107006B986A /* Build configuration list for PBXNativeTarget "TaianeVinicius" */ = {
+		2370939421713107006B986A /* Build configuration list for PBXNativeTarget "TaianeViniciusLidiane" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2370939521713107006B986A /* Debug */,
